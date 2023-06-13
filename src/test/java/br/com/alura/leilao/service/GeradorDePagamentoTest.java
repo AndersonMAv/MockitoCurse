@@ -72,23 +72,7 @@ public class GeradorDePagamentoTest {
             Assert.assertEquals( vencedor.getUsuario(), pagamento.getUsuario() );
             Assert.assertEquals( leilao, pagamento.getLeilao() );
             Assert.assertFalse( pagamento.getPago() );
-        }
-        
-        /**
-         * Teste Sextas
-         */
-        
-
-        /**
-         * Teste Sabado
-         */
-
-
-        /**
-         * Teste Doming
-         */
-
-        
+        }        
     }
 
     @Test
